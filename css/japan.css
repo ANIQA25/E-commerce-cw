@@ -1,0 +1,149 @@
+/* background image styles */
+.background-image{
+    background-image: url("../images/japan/WcvHEf7y0bahpsYLTbd45osA-mfsRiDj-XPjIbSxyf0.jpg");
+
+}
+
+/* navigation bar styles and anchors */
+nav,
+footer,
+#myBtn {
+    background-color:#342627;
+
+}
+/* styles for the body of the page */
+
+main{
+    color: #342627;
+}
+
+/* map image */
+
+.map{
+    position: relative;
+    background-color: whitesmoke;
+    height: 70vh;
+}
+
+.map h1 {
+    left: 25%;
+    top: 5%;
+    position: absolute;
+}
+
+.map img {
+    width:100%;
+    height:100%;
+}
+
+.section{
+    text-align: center;
+
+}
+
+/* images with details */
+
+section{
+    display:flex;
+    justify-content:center;
+   
+}
+
+section img{
+    width: 100%;
+    height: 200px;
+}
+
+
+section div{
+    width: 300px;
+	height: 400px;
+	margin: 10px 15px 10px 10px;
+    box-shadow: 0px 1px 10px #aaa;
+    border-radius: 10px;
+    word-wrap: break-word;
+    text-align: left;
+    overflow: hidden;
+    
+}
+
+section div:hover{
+    box-shadow: 0px 1px 10px #555;
+}
+
+
+section p{
+    margin:10px;
+    font-size: small;
+    letter-spacing: 1px;
+    color: #555;
+    
+}
+
+section h3{
+    margin: 5px 0 5px 10px;
+
+}
+
+#spring{
+    background-image: url("../images/japan/photo-1616544567842-573ff1565c54.jpeg");
+}
+
+#winter{
+    background-image: url("../images/japan/freestocks-white-petaled-flower-branches-close-up-cold-color.jpg");  
+}
+
+#summer{
+    background-image: url("../images/japan/2Sonnenblume_iStock_78651215_L_your_photo.jpg");
+}
+
+#autumn{
+    background-image: url("../images/japan/2Artsy-Backgrounds-HD.jpg");
+    
+}
+
+.season{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.season img {
+    width: 100%;
+    height: 200px;
+    box-shadow: 0px 1px 10px #aaa;
+
+}
+
+.season div{
+    width: 300px;
+	height: 300px;
+	margin: 10px 10px 10px 5px;    
+}
+
+.season .text{
+    padding: 50px;
+    word-spacing: 1px;
+    font-weight: bolder;
+
+}
+
+.season h6{
+    text-align: center;
+    background-color: white;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+

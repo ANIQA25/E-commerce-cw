@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Travel Asia | Comments</title>
+
+    <link rel="icon" type="image/x-icon" href="images/travel-asia-website-favicon-color.png">
+    <link rel = "stylesheet" href="css/templatemain.css">
+    <link rel = "stylesheet" href="css/comments.css">
+    <script src="js/navbar.js"></script>
+    <script src="js/comments.js"></script>
+
+</head>
+
+<body>
+
+    <nav>
+        <a class="logo" href="home.html" title="Home">
+            <img class="logo"  src="images/logo.png" alt="logo">
+        </a>
+
+        <ul class="links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="comments.html" class="active">Comments</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="background-image">
+            <div class="topic" >
+                <h1>Comment Your Thought</h1>
+            </div>
+        </div>
+
+        <div class="sub-topic" >
+            <h2>Email us your feedback </h2>
+            <hr>   
+        </div>
+        
+        <form id="myForm" action="mailto:nileshkaf2002@gmail.com" method="post" enctype="text/plain" onsubmit="return validateForm()">
+            
+            <div class="section" id="radio">
+            
+                <h5>
+                    How satisfied are you with our website. Choose 0 to 10. Where 0 is extremely dissatisfied and 10 extremely satisfied.
+                    <span id="ratingAlert">*</span>
+                </h5>
+                
+                <div class="radio-box">
+
+                    <label for="0">0 <br>
+                        <input type="radio" name="rating" id="0" value="0">
+                    </label>
+                    
+                    <label for="1">1 <br>
+                        <input type="radio" name="rating" id="1" value="1">
+                    </label>
+
+                    <label for="2">2 <br>
+                        <input type="radio" name="rating" id="2" value="2">
+                    </label>
+
+                    <label for="3">3 <br>
+                        <input type="radio" name="rating" id="3" value="3">
+                    </label>
+
+                    <label for="4">4 <br>
+                        <input type="radio" name="rating" id="4" value="4">
+                    </label>
+
+                    <label for="5">5 <br>
+                        <input type="radio" name="rating" id="5" value="5">
+                    </label>
+
+                    <label for="6">6 <br>
+                        <input type="radio" name="rating" id="6" value="6">
+                    </label>
+
+                    <label for="7">7 <br>
+                        <input type="radio" name="rating" id="7" value="7">
+                    </label>
+
+                    <label for="8">8 <br>
+                        <input type="radio" name="rating" id="8" value="8">
+                    </label>
+
+                    <label for="9">9 <br>
+                        <input type="radio" name="rating" id="9" value="9">
+                    </label>
+
+                    <label for="10">10 <br>
+                        <input type="radio" name="rating" id="10" value="10">
+                    </label>
+
+                </div>
+
+            </div>
+            
+            <div class="section" id="textarea">
+
+                <h5>
+                    Tell us your reason for giving us this rating.
+                    <span id="feedbackAlert">*</span> 
+                </h5>
+                <textarea name="feedback" id="feedback" cols="100" rows="7" placeholder="Your feedback..."></textarea>
+            
+            </div>
+
+            <div class="section">
+
+                <h5>Your feedback type. (optional)</h5>
+                <select name="feedback-type" id="feedback-type">
+                    <option value="" disabled selected hidden>--- Please select ---</option>
+                    <option value="Complements">Complements</option>
+                    <option value="Comments">Comments</option>
+                    <option value="Suggestions">Suggestions</option>
+                    <option value="Question">Questions</option>
+                </select>
+
+            </div>
+
+            <div class="section">
+
+                <h5>Your email address. (optional)</h5>
+                <input type="email" name="email" id="email" placeholder="username@gmail.com">   
+            
+            </div>
+
+            <div class="button">
+
+                <input type="submit" id="button" value="Submit">
+            
+            </div>
+
+        </form>
+
+        <div id="hidden-message">
+            
+            <h1>Thank you !</h1>
+            <h5>Thank you for taking the time to give us your feedback on your experience today.</h5>
+
+        </div>
+
+    </main>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="js/gotop.js"></script>
+
+    <footer>
+
+        <h5>
+            Made by: <a class="editor" href="nileshka.html" target="_blank" title="page editor"> Nileshka Fernando</a><br>
+        </h5>
+        <hr>
+        <h6> &copy; TRAVEL ASIA 2023 ALL RIGHTS RESERVED</h6> 
+
+    </footer>
+
+</body>
+
+</html>  

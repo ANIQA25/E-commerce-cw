@@ -1,0 +1,47 @@
+
+.content{
+    display:flex;
+    justify-content:center;
+    margin: 0 50px 50px;
+    
+}
+
+.img-area{
+	width: 300px;
+	height: 400px;
+	margin: 50px 15px 50px 10px;
+    position:relative;
+    box-shadow: 0px 1px 10px #aaa;
+    border-radius: 10px;
+
+}
+
+.img-area img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    transition: .5s ease;
+
+}
+
+.img-area:hover img {
+    opacity: 0.3;
+}
+
+.img-area:hover .name {
+    visibility: visible;
+
+}
+
+.name{
+    font-weight: 600;
+    position:absolute;
+    left:0;
+    right:0;
+    text-align:center;
+    visibility: hidden;
+}
+
+
+
+

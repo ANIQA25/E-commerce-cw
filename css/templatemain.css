@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+/* background image */
+
+.background-image {
+    background-image: url('../images/cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;  
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* navigation bar styles */
+
+.logo{
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin: 5px 0 0 20px;
+
+}
+
+nav {
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    transition: background-color 0.3s ease;
+
+}
+
+.links {
+    text-align: right;
+    padding: 10px 40px 0;
+    margin: 0;
+
+}
+
+.links li {
+    display: inline-block;
+
+}
+
+.links a {
+    padding: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(6, 73, 73);
+    text-transform:capitalize;
+    font-size:large;
+    float: right;
+
+}
+
+.links a:hover {
+    color: rgb(49,196,141);
+    border-bottom: 3px solid rgb(6, 73, 73) ;
+    transition: all .1s ease-in-out;
+    
+}
+
+.links a.active {
+    border-bottom: 3px solid rgb(6, 73, 73);
+}
+
+.nav-scrolled{
+   background-color:whitesmoke;
+    
+}
+
+/* main page styles */
+
+main {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(6, 73, 73);
+
+
+}
+
+/* topic styles */
+
+.topic {
+    font-size: 20px ;
+    text-align: center;
+    color: white;
+}
+
+
+.sub-topic{
+    margin: 50px 50px 0;
+    
+}
+
+/* footer section styles */
+
+footer{
+    background-color: rgb(6, 73, 73);
+
+}
+
+footer h5,
+footer h6{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 20px 0 20px;
+
+}
+
+footer hr{
+    border: 1px solid white;
+    width: 50%;
+
+}
+
+.editor{
+    color: white;
+}
+
+/* go to top button styles */
+
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 1;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(6, 73, 73);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#myBtn:hover {
+    background-color: rgb(49,196,141);
+}
+
+

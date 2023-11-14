@@ -1,0 +1,31 @@
+/**------------------------------------------------------------------CSS for Site Map-------------------------------------------------------------- **/
+
+.svg{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    filter: drop-shadow(0px 1px 10px #aaa);
+
+}
+
+text{
+    font-size: 17px;
+    fill: white;
+    font-weight: 600;
+}
+
+path{
+    stroke: #555;
+}
+
+.branch{
+    fill: rgb(6, 73, 73);
+
+}
+
+.svg g:hover {
+    fill: rgb(49,196,141);
+    
+}
+
+

@@ -1,0 +1,64 @@
+
+body{
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity:1;
+    transition:opacity 2s;
+    background-image:url("../images/splashpage.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+
+}
+
+#splash.fade{
+    opacity:0
+}
+
+.container{
+    background-color:rgba(255, 255, 255, 0.884);
+    padding: 60px;
+    border-radius: 20px;
+    color: rgb(57,131,120);
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    width: 60%;
+    margin: auto;
+    
+}
+
+.center{
+    width:50%;   
+}
+
+.details hr{
+    width: 20%;   
+}
+
+.details{
+    color: rgb(49,196,141);
+}
+
+.details h2{
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: rgb(6, 73, 73);
+
+}
+
+footer h5{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 20px 0 20px;
+
+}
+
+.editor{
+    color: white;
+}

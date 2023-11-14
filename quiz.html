@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Travel Asia | Quiz</title>
+
+    <link rel="icon" type="image/x-icon" href="images/travel-asia-website-favicon-color.png">
+    <link rel = "stylesheet" href="css/templatemain.css">
+    <link rel = "stylesheet" href="css/quiz.css">
+    <script src="js/navbar.js"></script>
+
+</head>
+
+<body>
+
+    <nav>
+        <a class="logo" href="home.html" title="Home">
+            <img class="logo"  src="images/logo.png" alt="logo">
+        </a>
+        
+        <ul class="links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="quiz.html" class="active">Quiz</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="comments.html">Comments</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="background-image">
+            <div class="topic" >
+                <h1>Take a Quiz</h1>
+            </div>
+        </div>
+
+        <div class="sub-topic" >
+            <h2>Test your knowledge </h2>
+            <hr>
+        </div>
+
+        <div class="container">
+
+            <div class="panel">
+
+                <h6 title="Timer" id="timer">Timer</h6>
+
+                <h5 id="number"> </h5>
+
+                <h3 class="question-container" id="question">
+                    Question goes here.
+                </h3>
+                <br>
+
+                <div class="result"> </div>
+
+                <div class="option-container">
+                    <button class="option" id="op1" onclick="disable()">option1</button>
+                    <button class="option" id="op2" onclick="disable()">option2</button>
+                    <button class="option" id="op3" onclick="disable()">option3</button>
+                    <button class="option" id="op4" onclick="disable()">option4</button>
+                </div>
+
+                <button class="next" >Next</button>
+
+            </div>
+
+            <div class="end">
+                <h1 class="heading"></h1>
+                <h5 class="time"></h5>
+                <h5 class="score"></h5>
+                <h5 class="comment"></h5>
+                <button type="button" class="again" onClick="window.location.reload()"> Start again </button>
+            </div>
+
+            <script src="js/quiz.js"></script>
+        </div>
+
+    </main>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="js/gotop.js"></script>
+
+    <footer>
+
+        <h5>
+            Made by: <a class="editor" href="minuri.html" target="_blank" title="page editor">Minuri Alwis</a><br>
+        </h5>
+        <hr>
+        <h6> &copy; TRAVEL ASIA 2023 ALL RIGHTS RESERVED</h6> 
+
+    </footer>
+
+</body>
+
+</html>  

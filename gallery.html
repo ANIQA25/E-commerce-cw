@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Travel Asia | Gallery</title>
+
+    <link rel="icon" type="image/x-icon" href="images/travel-asia-website-favicon-color.png">
+    <link rel = "stylesheet" href="css/templatemain.css">
+    <link rel = "stylesheet" href="css/gallery.css">
+    <script src="js/navbar.js"></script>
+    <script src="js/gallery.js"></script> 
+    
+
+</head>
+
+<body>
+
+    <nav>
+        <a class="logo" href="home.html" title="Home">
+            <img class="logo"  src="images/logo.png" alt="logo">
+        </a>
+   
+        <ul class="links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="comments.html">Comments</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="background-image">
+            <div class="topic" >
+                <h1>More Tourist Attractions</h1>
+            </div>
+        </div>
+
+        <div class="sub-topic" >
+            <h2>Hover over the images for information</h2>
+            <hr>
+        </div>
+
+        <div class="font-change">        <!--adjust the font size of the text when called-->
+            <button class="btn" onclick="smallFont()">-A</button>
+            <button class="btn" onclick="defaultFont()">A</button>
+            <button class="btn" onclick="mediumFont()">A+</button>
+        </div>
+
+        <div class="color-change">      <!--adjust the color scheme of the page-->
+            <button id="default" class="btn" onclick="defaultMode()"></button>
+            <button id="light" class="btn" onclick="lightMode()"></button>
+            <button id="dark" class="btn" onclick="darkMode()"></button>
+        </div>
+
+        <div class="color-picker">      <!--random color picker-->
+            <input type="color" id="color-picker" oninput="colorPicker()">
+        </div>
+
+
+        <div class="container">
+            
+            <section>
+
+                <div class="hover-area">
+                    <img src="images/gallery/dead-sea-israel-city.jpg" alt="sea">
+                </div>
+
+                <div class="hidden-area">
+                    <h3>Dead Sea, Israel</h3>
+                    <p>The dark blue waters of the Dead Sea touch the borders of both Jordan and Israel. Actually a lake despite its name, the Dead Sea sits at the lowest land elevation on Earth-over 430 meters below sea level. With a salt concentration of around 31 percent-almost 10 times saltier than the ocean -the Dead Sea is so thick, nothing can sink into it, and everyone who walks into it will naturally float.</p> 
+                </div>
+
+            
+                <div class="hover-area" >
+                    <img src="images/gallery/phuket-thailand.jpg" alt="phuket">
+                </div>
+
+                <div class="hidden-area">
+                    <h3>Phuket, Thailand</h3>
+                    <p>Thailand's biggest island is also a magnet for visitors. Phuket boasts some of the best beaches in the country, with clean, soft, rolling sands and turquoise waters as far as the eye can see.</p>
+
+                    <p>Kata, Hat Karon, and Kamala beaches see a lot of tourists during the high season but remain sleepy little villages once the rains arrive. Beautiful coral reefs line up the coastline, offering amazing opportunities for snorkeling and diving but also sea kayaking and island hopping.</p> 
+                </div>
+
+                <div class="hover-area">
+                    <img src="images/gallery/hoi-an-vietnam.jpg" alt="hoi-an">
+                </div>
+
+                <div class="hidden-area">
+                    <h3>Hoi An, Vietnam</h3>
+                    <p>Most visitors arriving in Vietnam land in either Hanoi or Ho Chi Minh City but Vietnam's best place to visit is actually a well-guarded secret.</p>
+
+                    <p>The ancient city of Hoi An is home to one of Asia's oldest trading ports and a UNESCO World Heritage Site. A major commercial stop for trading ships as in the 15th century, Hoi An still maintains much of its original architecture in the form of timber frame buildings, French-colonial shutters, and Chinese tiled roofs.</p>
+                </div>   
+
+                <div class="hover-area"> 
+                    <img src="images/gallery/hong-kong.jpg" alt="hongkong">
+                </div> 
+
+                <div class="hidden-area">
+                    <h3>Hong Kong</h3>
+                    <p>Over 7.4 million people from all over the world occupy the small 1,104-square-kilometer island of Hong Kong, making it the third most densely populated place in the world. Despite having one of the world's highest per capita incomes, income inequality has become one of Hong Kong's main issues, and lower-income families often live in crowded tenement buildings. The buildings themselves have become tourist attractions, as many are historic structures dating back over a century.</p> 
+                </div>
+            
+            </section>    
+            <section>    
+
+                <div class="hover-area">
+                    <img src="images/gallery/kathmandu-nepal.jpg" alt="kathmandu">
+                </div>
+
+                <div class="hidden-area">
+                    <h3>Kathmandu, Nepal</h3>
+                    <p>Nepal's capital and largest city is also known as the "City of Temples." A melting pot of Hindu and Buddhist religious influences, Kathmandu is full of stupas-including Nepal's holiest Buddhist site, Boudhanath, a UNESCO World Heritage Site, and Swayambhu, home to holy monkeys and one of the oldest temples in Nepal. Both those looking for a religious experience and camera-toting tourists can find much to appreciate in a city where spirituality touches almost everything.</p>
+                </div>
+                
+
+                <div class="empty-area"></div>
+
+
+                <div class="hover-area">
+                    <img src="images/gallery/kingdom-of-bhutan.jpg" alt="kindom">
+                </div>
+
+                <div class="hidden-area">
+                    <h3>Kingdom of Bhutan</h3>
+                    <p>Bhutan is a landlocked country surrounded by the Himalayas, Tibet, and parts of India. A nation of steep mountains, green valleys, and swift rivers, Bhutan is home to 7,570-meter-tall Gangkhar Puensum, the world's highest unclimbed mountain.</p>
+                    
+                    <p>Some of the most beautiful sights in the country are high up, perched on cliffs-Tiger's Nest Monastery is a good example, set over 3,000 meters up in the mountains and only reachable after a grueling hike.</p>
+                </div>
+
+            </section>    
+            <section>
+                
+                <div class="hover-area">
+                    <img src="images/gallery/taj-mahal_-1-1024x682.jpg" alt="tajmahal">
+                </div>
+
+                <div class="hidden-area">
+                    <h3>Taj Mahal, India</h3>
+                    <p>The Taj Mahal ('Crown of the Palace') is an Islamic ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.</p>             
+                </div>
+
+                <div class="hover-area">
+                    <img src="images/gallery/beijing-china.jpg" alt="beijing">
+                </div>
+
+                <div class="hidden-area">
+                    <h3>Beijing, China</h3>
+                    <p>One of the most populous cities in the world, Beijing is also one of the oldest.</p>
+                    
+                    <p>China's capital is home to seven UNESCO World Heritage Sites, including the Imperial Summer Palace and its gardens, the oldest canal in the world, and the Forbidden City-a palace complex that served as the home of China's emperors for 500 years starting in the 1420s. The Forbidden City-made up of almost 1,000 different buildings-is one of Beijing's most impressive tourist attractions.</p>
+                </div>
+
+                <div class="hover-area">
+                    <img src="images/gallery/bali-indonesia.jpg" alt="bali">
+                </div>
+
+                <div class="hidden-area">
+                    <h3>Bali, Indonesia</h3>
+                    <p>Bali is best known for its stunning golden beaches lined with swaying palm trees and blue-green waters, but this Indonesian island has a lot more attractions to offer visitors. Not that the beaches shouldn't top your must-visit list-the glorious stretches of sand at laid-back Crystal Bay, the undeveloped White Sands Beach, or the serene Sanur with its untouched village-feel are some of Bali's best destinations.</p>
+                </div>
+
+                <div class="hover-area">
+                    <img src="images/gallery/bagan-myanmar.jpg" alt="myanmar">
+                </div>
+                
+                <div class="hidden-area">
+                    <h3>Bagan, Myanmar</h3>
+                    <p>An ancient city and one of the top heritage sites in the world, Bagan was once the capital of a powerful kingdom. Today, Bagan and Angkor are the two most important ancient religious sites in Asia, receiving hundreds of thousands of visitors every year. The Bagan Archeological Zone extends over a 41-square-kilometer area and is home to more than 3,000 pagodas, stupas, and other religious structures tucked away amid dense forests.</p>
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="js/gotop.js"></script>
+    
+    <footer>
+
+        <h5>
+            Made by: <a class="editor" href="sanumi.html" target="_blank" title="page editor"> Sanumi Hanwella</a><br>
+        </h5>
+        <hr>
+        <h6> &copy; TRAVEL ASIA 2023 ALL RIGHTS RESERVED</h6> 
+
+    </footer>
+
+</body>
+
+</html>  
